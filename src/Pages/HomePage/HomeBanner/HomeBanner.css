@@ -1,0 +1,47 @@
+.home-banner {
+    min-height: 720px;
+    background: url(../../HomePage/assets/images/bg.png) no-repeat center center/cover;
+    padding: 90px;
+}
+
+.home-banner .buttons-wrapper {
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-inline: 10px;
+}
+
+.home-banner .buttons-wrapper .search-filter-button {
+    border-color: rgba(255, 255, 255, 0);
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    margin-inline: 10px;
+}
+
+.home-banner .calc-button {
+    border: 1px solid rgba(104, 104, 104, 0.59);
+    border-radius: 50%;
+    background: #fff;
+    height: 24px;
+    width: 24px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.home-banner .quantity {
+    position: absolute;
+    background: #fff;
+    right: -10px;
+    top: 100%;
+    padding: 10px;
+    width: 270px;
+}
+
+.home-banner .button-done {
+    background: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
